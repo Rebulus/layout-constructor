@@ -2,13 +2,17 @@
   "name": "layout-constructor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
     "test": "mocha --compilers js:babel-register --recursive"
   },
   "author": "Aliaksei Simanchyk <rebulus@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rebulus/layout-constructor.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.5.2",
