@@ -1,0 +1,39 @@
+{
+  "name": "layout-constructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "mocha --compilers js:babel-register --recursive"
+  },
+  "author": "Aliaksei Simanchyk <rebulus@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "deep-freeze": "0.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "mocha": "^2.4.5",
+    "mocha-logger": "^1.0.2",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.5.1",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "nib": "^1.1.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1"
+  }
+}

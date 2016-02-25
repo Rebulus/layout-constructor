@@ -1,0 +1,36 @@
+@import '../../../node_modules/nib/index.styl'
+
+.app
+  display: flex
+  align-items: flex-start
+  font: normal 13px/1.5 Arial, Helvetica, sans-serif
+
+  &__left-panel
+    width: 30%
+
+  &__content
+    width: 60%
+    min-height: 300px
+    margin-left: 10px
+
+    &.drag-enter
+      border: 2px dashed #542
+
+.constructor-item
+  width: 100%
+  height: 50px
+  margin: 10px 0
+
+  box-sizing: border-box
+  border: 2px solid grey
+
+  font-weight: bold
+  text-align: center
+  vertical-align: middle
+  line-height: @height
+
+  cursor: move
+  user-select: none
+
+  &.drag-start
+    opacity: 0.4
